@@ -1,0 +1,14 @@
+{
+  "home": "~/.systemjanet",
+  "stdout_log_dir": "~/.systemjanet/logs/stdout",
+  "stderr_log_dir": "~/.systemjanet/logs/stderr",
+  "log_rotation": "daily",
+  "max_concurrent": 4,
+  "daemon_log": "~/.systemjanet/daemon.log",
+  "alerts_log": "~/.systemjanet/alerts.log",
+  "control_sock": "~/.systemjanet/control.sock",
+  "state_file": "~/.systemjanet/state.jdn",
+  "alert_channels": {},
+  "default_alert_channel": null,
+  "alert_patterns": ["error", "exception", "traceback", "panic", "fatal", "segmentation fault"]
+}

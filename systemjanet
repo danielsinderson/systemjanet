@@ -1,0 +1,7 @@
+#!/usr/bin/env janet
+
+# systemjanet — CLI entry point
+# Phase 9: full argparse dispatch will be implemented here.
+# Subcommands: start, status, trigger, reload, stop
+
+(print "systemjanet: not yet implemented")
