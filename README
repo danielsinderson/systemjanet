@@ -1,0 +1,6 @@
+# SystemJanet
+SystemJanet is a job orchestration daemon modeled after systemd and written in the Janet programming language.
+
+The project has three goals: schedule and run jobs, log job results, and generate alerts. Jobs are written in JSON and run based on schedule triggers, manual triggers, or event triggers in a non-blocking way with retries and a queue to catch jobs that were missed during a system outage. The stdout and stderr of jobs are dumped into separate plain text log files, And alerts are optionally sent via established communication channels when a job fails after retries, or after finding a specific pattern in one of the log files during parsing.
+
+
